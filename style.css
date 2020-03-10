@@ -1,0 +1,79 @@
+body{
+    font-family: 'Share Tech Mono';
+    font-size: 16px;
+    text-transform: capitalize;
+    }
+
+#columna1 {
+    display:inline-block;   
+    width:100%; 
+    }
+
+#columna2{
+    display:none;
+}
+
+
+#screen img{
+    display:sticky;
+    position:fixed;
+        top:2em;
+        right:3em;
+    height:8em;
+    width: 8em;
+    opacity:0.8;
+}
+
+#reading{
+    display:absolute;
+    position:fixed;
+        top:8em;
+        
+    width:16em;
+    line-height: 0.5;
+}
+
+#reading span{
+    font-size:1.6rem;
+    opacity: 0.3;
+    position: relative;
+        top:3em;
+        left:2em;
+}
+
+@media screen and (max-width:580px) {
+    #pokeimagenes {
+        display:sticky;
+    }
+
+    #reading {
+        display:sticky;
+        position: fixed;
+            top:0em;
+        height:10em;
+        width:100%;        
+    }
+
+    .datapoke {
+        display:inline-block;
+        position: relative;
+            top:25rem;
+        width:100%;
+        
+    }
+
+    .piccy img{
+        display:inline-block;         
+        
+    }
+}
+
+
+@media screen and (min-width:581px)  {
+    #pokeimagenes {
+        max-width: 100%;
+    }
+    
+}
+
+   
